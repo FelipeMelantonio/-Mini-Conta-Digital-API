@@ -67,6 +67,8 @@ Existem dois perfis:
 - A cada endpoint mostra no console os detalhes da requisição
 - Somente ADMIN pode criar outro ADMIN
 - Existe um ADMIN pré-criado automaticamente ao iniciar a aplicação
+- Valor > 0
+- não pode deixar saldo negativo
 
 #### Admin Padrão (Seed):
 
