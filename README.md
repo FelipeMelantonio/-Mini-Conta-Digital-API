@@ -440,7 +440,7 @@ O sistema valida saldo antes da operação.
   "banco": "341",
   "agencia": "1234",
   "conta": "56789-0",
-  "cpf": "98765432100"
+  "cpfDestino": "98765432100"
 }
 ```
 
@@ -455,7 +455,7 @@ O sistema valida saldo antes da operação.
   "banco": "341",
   "agencia": "1234",
   "conta": "56789-0",
-  "cpf": "98765432100"
+  "cpfDestino": "98765432100"
 }
 ```
 
