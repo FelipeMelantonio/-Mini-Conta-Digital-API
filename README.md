@@ -390,7 +390,7 @@ valor > 0
 }
 ```
 
-❌ Operação negada: apenas o dono da conta de origem pode transferir.(Token errado: usuário que não é dono da contaOrigemId) 
+❌ Operação negada: apenas o dono da conta de origem pode transferir.(Token de usuário que não é dono da contaOrigemId) 
 
 ---
 
