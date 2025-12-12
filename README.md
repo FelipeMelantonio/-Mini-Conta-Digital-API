@@ -365,6 +365,7 @@ Authorization: Bearer <TOKEN>
 
 Somente o dono da conta de origem pode executar a transferência.
 O token deve pertencer ao usuário da `contaOrigemId`.
+valor > 0
 
 #### ✅ Exemplo Válido
 
