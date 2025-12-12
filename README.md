@@ -5,7 +5,7 @@ API REST para cadastro de usuários, contas digitais e transações internas/ext
 
 ---
 
-## 📌 Instruções(Linha 172 começa realmente os testes em json)
+## 📌 Instruções(Linha 174 começa realmente os testes em json)
 
 ### 🔧 Pré-requisitos
 - **Docker**
@@ -43,6 +43,8 @@ ADMIN
 Regras:
 
 Obrigatório registrar e depois fazer login.
+
+A cada endpoint mostra no console os detalhes da requisição 
 
 Somente ADMIN pode criar outro ADMIN.
 
@@ -194,6 +196,7 @@ POST /auth/login
   "senha": "123456"
 }
 🏦 Conta Digital
+
 3️⃣ Criar conta para usuário
 (1 conta por usuário)
 
@@ -283,13 +286,9 @@ GET /transacoes/conta/{contaId}
 Retorna:
 
 tipo
-
 valor
-
 conta origem/destino
-
 timestamp
-
 saldo após operação
 
 🕵️ Auditoria
@@ -300,13 +299,9 @@ Após cada operação, o console mostra:
 Inclui:
 
 usuário
-
 endpoint
-
 data/hora
-
 payload
-
 emails de origem/destino
 
 🔎 Buscar usuário por ID
@@ -315,7 +310,6 @@ GET /api/usuarios/{id}
 Regra:
 
 exige JWT válido
-
 usuário só pode consultar seus próprios dados
 
 🔎 Buscar conta do usuário autenticado
@@ -324,6 +318,5 @@ GET /contas/{id}
 Regra:
 
 não permite acessar contas de outros usuários
-
 o token define qual conta pode ser visualizada
 
