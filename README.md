@@ -523,5 +523,5 @@ Este projeto é de uso educacional e técnico.
 
 ## 👨‍💻 Autor
 
-Desenvolvido por Felipe Ferreira Melantonio .
+Desenvolvido por Felipe Ferreira Melantonio 
 
